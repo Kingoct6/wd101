@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div class="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="form">
+      
+      <form id="user-form">
+        <h1>Registration Form</h1>  
+        <label for="name">Name:</label>
+        <input required type="text" name="name" id="name" />
+
+        <label for="email">E-mail:</label>
+        <input required type="email" name="email" id="email" />
+
+        <label for="password">Password:</label>
+        <input required type="password" name="password" id="password" />
+
+        <label for="dob">Date Of Birth:</label>
+        <input required type="date" name="dob" id="dob" />
+        
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the Terms and Conditions</label>
+      
+      <div class="d-flex flex-row justify-content-center">
+        <!--<button type="submit">Submit</button>-->
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+      </div>
+
+      </form>
+    </div>
+  <div class="container">
+	<div
+	class="relative bg white px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10 bg2">
+  
+	<div class="mx-auto bg2"><h2>Entries</h2>
+	<div class="align bg2" id="user-entries"></div>
+    <script src="./index.js">
+    </script>
+    </div>
+    </div>
+    </div>
+  </body>
+  </div>
+</html>
