@@ -1,0 +1,97 @@
+.bg{
+    background-color: #659DBD;
+}
+.bg2{
+    background-color: #ffffff;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    }
+
+h1{
+    text-align: center;
+}
+label, input[type="submit"] {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: auto;
+}
+
+
+button[type="submit"] {
+    background-color: #ffffff;
+    cursor: pointer;
+    color: dodgerblue;
+    border-color: #2196F3;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: blue;
+    color: white;
+}
+
+input#name:invalid:focus{
+    border:1px solid red;
+} 
+
+input#email:invalid:focus{
+    border:1px solid red;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.Display{
+    display: grid;
+}
+
+.mx-auto {
+    text-align: center;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.align {
+    text-align: -webkit-center;
+}
+
+.container{
+
+    border: 2px;
+    border-radius: 2px;
+    border-color: black;
+}
+
+.form{
+    padding-top: 20px;
+}
+
+button {
+    display: -webkit-box;
+}
