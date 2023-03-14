@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div class="bg">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <title>Registration Form</title>
   </head>
-  <body>
+  <body style="background-color: #659DBD;">
     <div class="form">
       
       <form id="user-form">
@@ -27,28 +26,25 @@
 
         <label for="dob">Date Of Birth:</label>
         <input required type="date" name="dob" id="dob" />
-        
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">I agree to the Terms and Conditions</label>
-      
-      <div class="d-flex flex-row justify-content-center">
-        <!--<button type="submit">Submit</button>-->
-        <button type="submit" class="btn btn-outline-primary">Submit</button>
-      </div>
 
+        <input type="checkbox" name="acceptTerms" id="acceptTerms" />
+        <label for="acceptTerms">I agree to the Terms And Conditions</label>
+
+        <div class="d-flex flex-row justify-content-center">
+          <button type="submit">Submit</button>
+        </div>
+      
       </form>
     </div>
   <div class="container">
 	<div
-	class="relative bg white px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10 bg2">
+	class="relative bg white px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10">
   
-	<div class="mx-auto bg2"><h2>Entries</h2>
-	<div class="align bg2" id="user-entries"></div>
+	<div class="mx-auto"><h2>Entries</h2>
+	<div class="align" id="user-entries"></div>
     <script src="./index.js">
     </script>
     </div>
     </div>
-    </div>
   </body>
-  </div>
 </html>
